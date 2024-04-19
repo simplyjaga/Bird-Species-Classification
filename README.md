@@ -14,3 +14,8 @@ outcomes of audio segment through clipping approach are aggregated to represent 
 call. Finally, the probability scores were used to find the presence of predominant bird species in the audio
 recording for multi-labelling. The proposed Wav2vec approach achieves F1-score of 0.87 using Xeno-
 Canto dataset in which the performance has been improved over other multi-label classifiers.
+
+
+### Steps to start the GUI using streamlit
+Make sure you have necessary libraries like tensorflow, keras, pandas, streamlit and so on. 
+The command to start the GUI serve ``` streamlit run paper_gui.py ```
